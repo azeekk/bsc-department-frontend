@@ -21,11 +21,12 @@ const Teachers = () => {
 
   useEffect(() => {
     axios
-    .get("http://localhost:3000/api/collections") // Replace with your actual API endpoint
+    .get("https://bca-department-backend-production.up.railway.app/api/collections") // Replace with your actual API endpoint
     .then((response) => {
-      setData(response.data);
+      const bcaTeachers = response.data.BCA;
+      console.log(bcaTeachers);
+      setData(bcaTeachers);
       setLoading(false);
-      console.log(response.data)
     })
     .catch((error) => {
       console.error("Error fetching data:", error);

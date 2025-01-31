@@ -110,4 +110,16 @@
       margin-bottom: 20px; /* Adjust margin */
     }
   }
+
+  @media (max-width: 414px) {
+    .video1 video {
+      width: 300px;
+      height: auto;
+    }
+
+    .bottom {
+      width: 300px;
+      height: auto;
+    }
+  }
   

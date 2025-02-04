@@ -30,7 +30,7 @@ const Home = () => {
       <div className='spotlight'> 
 
       <div className='middle'>
-        <h1 className='bca'>DEPARTMENT<br></br> OF<br></br> BCA</h1>
+        <h1 className='bca'>DEPARTMENT<br></br> OF<br></br> BSC</h1>
       </div>
 
       <div className='video'>

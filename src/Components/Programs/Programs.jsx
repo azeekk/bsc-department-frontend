@@ -1,6 +1,6 @@
 import React from 'react'
 import './programs.css'
-import video from '../../assets/video.mp4'
+import IGEN from '../../assets/igen232.mp4'
 
 const Programs = () => {
   return (
@@ -9,7 +9,7 @@ const Programs = () => {
       <div className='section'>
         <div className='top'>
                   <div className='video1'>
-                    <video src={video} width="500" height="400" autoPlay muted loop controls="false" ></video>
+                    <video src={IGEN} width="500" height="200" autoPlay muted loop controls="false" ></video>
                   </div>
 
         </div>

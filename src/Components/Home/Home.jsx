@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Logo from '../../assets/jamia_logo.png'
-import video from '../../assets/video.mp4'
+import collegevideo from '../../assets/collegevideo.mp4'
 
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
 
       <div className='video'>
-          <video src={video} width="600" height="300" autoPlay muted loop controls="false" target="video" ></video>
+          <video src={collegevideo} width="600" height="300" autoPlay muted loop controls="false" target="video" ></video>
         </div>
 
 

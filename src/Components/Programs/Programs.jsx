@@ -14,10 +14,7 @@ const Programs = () => {
 
         </div>
         <div className='bottom'>
-        <h4 className='program_heading'>Programs</h4>
-        <p className='program_paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-           cumque accusantium iusto vero aut delectus consectetur itaque dolorum quae
-            iste nostrum quod, distinctio magnam! Nulla quod ullam cupiditate quasi nostrum.</p>
+        <p className='program_paragraph'>The BSc Department focuses on scientific knowledge, research, and practical applications in various fields such as Physics, Chemistry, Mathematics, Computer Science, Biology, and Environmental Science. It provides students with analytical, technical, and problem-solving skills necessary for careers in research, technology, and industry.</p>
           
         </div>
       </div>    

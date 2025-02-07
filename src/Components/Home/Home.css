@@ -200,7 +200,7 @@
   @media (max-width: 414px) {
 
     .video video {
-      width: 300px;
+      width:400px;
       height: auto;
       
     }
@@ -227,7 +227,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-left: 42px;
+      margin-left: -22px;
 
     }
   
@@ -235,7 +235,7 @@
       height: 32px;
       width: 40px;
       left: 8px;
-      top: 47px;
+      top: 95px;
     }
   
     .img img {

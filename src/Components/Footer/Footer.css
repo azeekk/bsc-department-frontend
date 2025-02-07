@@ -1,8 +1,8 @@
 .footer {
   height: 100vh;
   width: 100%;
-  background-image: url("../../assets/image.png");
-  background-size: 1520px 700px;
+  background-image: url("../../assets/background1.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

@@ -17,14 +17,6 @@ const Home = () => {
             </div>
         </div>
         <div className='right'>
-          <div className='Navigation'>
-            <ul className='ul'>
-              <li className='homeli'>Home</li>
-              <li className='teachersli'>Teachers</li>
-              <li className='programsli'>Programs</li>
-              <li className='aboutli'>About</li>
-            </ul>
-          </div>
         </div>
       </header>
       <div className='spotlight'> 

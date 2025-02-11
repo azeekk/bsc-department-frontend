@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import SkeletonLoader from "../../Component/Skeleton/Skeleton"
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -60,7 +61,14 @@ const Teachers = () => {
         pagination={{clickable: true}}
         className="mySwiper"
       >
-        {data.map((teacher, index) => (
+        {loading
+          ? // Show 5 skeleton slides while loading
+            [...Array(5)].map((_, index) => (
+              <SwiperSlide key={index}>
+                <SkeletonLoader />
+              </SwiperSlide>
+            ))
+          : data.map((teacher, index) => (
           <SwiperSlide key={index}>
             <div className="teachercard">
             <div className="teacherimage">
